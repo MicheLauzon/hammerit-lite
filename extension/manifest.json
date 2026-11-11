@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "HammerIT lite (Trinity prototype)",
+  "version": "0.14.0.1",
+  "description": "HammerIT lite: one circle per message as you work in claude.ai. Open the panel to see how each reply was read, confirm or correct each reading, and after five confirmed lines see your chat insights. The record and the reading stay on your own Mac. Nothing leaves it.",
+  "host_permissions": [
+    "http://127.0.0.1:4333/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://claude.ai/*"
+      ],
+      "js": [
+        "content.js",
+        "sync.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}
