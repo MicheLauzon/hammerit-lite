@@ -1,0 +1,1 @@
+{ "name": "hammerit", "version": "0.15.0", "author": { "name": "HammerAI" }, "description": "HammerIT for Claude Code: a bar of circles above the prompt and a pane that show how each of your replies was read, let you confirm or change each reading, and generate the record of the session. Reads through the HammerIT lite app on this computer.", "types": "./types/index.d.ts" }
