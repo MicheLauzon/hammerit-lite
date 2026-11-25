@@ -1,9 +1,11 @@
 # Trinity's prototypes, 25 Nov 2026
 
-Two prototypes built on Miche's 0.15 files. UI and page-reading only; the engine (0.15.1) is unchanged.
+Two prototypes built on Miche's 0.15 files: the ChatGPT trial, and a suggestion for the terminal pane. UI and page-reading only; the engine (0.15.1) is unchanged.
 The full write-up of the issues behind them is in the "HammerIT setup: issues and fixes (25 Nov)" doc Trinity shares.
 
-## claude-code-prototype/ — smaller terminal pane
+## claude-code-prototype/ — suggestion: smaller terminal pane
+
+A suggestion for you to consider, not a request to merge.
 
 Based on HammerIT for Claude Code 0.15.0 (`~/.hammerit/claude_code`). Changes, all in `hooks/register.tsx`:
 
